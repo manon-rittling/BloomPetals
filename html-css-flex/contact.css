@@ -1,0 +1,112 @@
+@font-face {
+	font-family: 'bloom';
+	src: url('typo/Blooms.otf') format("TrueType");
+    
+}
+
+
+html,body {margin: 0;
+    padding: 0;
+    background-image:url(images/bg1.jpg);
+    background-size: cover; /* Redimensionne l'image pour couvrir tout l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center;   
+}
+
+header {
+    background-color: rgb(95, 220, 183);
+    opacity: 90%;
+    color: aliceblue;
+}
+
+nav {
+    padding: 0.7%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#placement {
+    width: 40%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.bord {
+    border: solid;
+    border-radius: 3vh;
+    padding: 1vh;
+}
+
+#search {
+    border: none;
+    border-radius: 50px;
+    padding:4%;
+    margin-right:20px;
+    opacity:60%;
+}
+
+h2 {font-family: bloom;
+    font-size: 500%;
+    color: rgb(95, 220, 183);
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.animation-titre {
+    overflow: hidden; /* Cache le texte qui dépasse */
+    border-right: .15em solid transparent;/* Curseur clignotant */
+    white-space: nowrap; /* Empêche le texte de sauter à la ligne */
+    margin: 0 auto; /* Centre le texte horizontalement */
+    animation: typing 3s steps(13) forwards; /* Animation de saisie */
+}
+
+h3 {font-family: bloom;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding-top: 10vh;
+    }
+
+
+#formulaire {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.bordure {
+    border-color:rgb(95, 220, 183);
+    border-radius: 3vh;
+    margin-bottom: 1vh;
+}
+
+#bouton {
+    border-color:rgb(95, 220, 183); ;
+    border-radius: 3vh;
+    padding:1vh;
+    margin-top: 1vh;
+}
+
+#bouton:hover {
+    opacity: 50%;
+}
+
+#civilité {
+    border-color:rgb(95, 220, 183) ;
+    border-radius: 3vh;
+}
+
+#message{
+    border-color:rgb(95, 220, 183)  ;
+    border-radius: 3vh;
+    margin-bottom: 1vh;
+}
+

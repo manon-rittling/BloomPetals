@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="boom-petals">
+   <meta name="author" content="manon RITTLING">
+   <title>entreprise</title>
+   <link rel="stylesheet" href="contact.css">
+   
+</head>
+
+<body>
+    <header>
+        <nav>
+        <aside id="placement">
+            <a class="bord" href="index.html">Home</a>
+            <a class="bord"  href="entreprise.html">Entreprise</a>
+            <a class="bord"  href="realisations.html">Réalisations</a>
+            <a class="bord"  href="contact.html">Contact</a>
+        </aside> 
+        <form action="/votre-page-de-recherche" method="get">
+            <input id="search" type="text" name="q" placeholder="Rechercher...">   
+        </form>
+        </nav>
+    </header>
+    <main>
+        <h2 class="animation-titre">BloomPetals Contact</h2>        
+
+        <h3>Contactez-nous</h3>
+
+        <form id="formulaire">
+        
+        <label for="civilite">Civilité :</label>
+        <select class="bordure" name="civilité" required>
+            <option value="Mme">Madame</option>
+            <option value="M">Monsieur</option>
+        </select>
+
+        <label for="nom">Nom :</label>
+        <input class="bordure" type="text" name="nom" required>
+
+        <label for="Prénom">Prénom :</label>
+        <input class="bordure" type="text" name="Prénom" required>
+
+        <label for="Adresse">Adresse :</label>
+        <input class="bordure" type="Adresse" name="Adresse" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <label>
+            <input type="checkbox" id="confidentialite" name="confidentialite" required>
+            J'accepte les politiques de confidentialité de l'entreprise
+            </label>
+
+        <button id="bouton" type="submit">Envoyer</button>
+
+       
+        </form>
+    </main>
+</body>
